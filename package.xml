@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>FreeCad-DynamicCommand</name>
+  <description>AutoCAD-style Dynamic Command Input for FreeCAD. Double-tap Space (configurable) anywhere to open a floating command search bar near the cursor.</description>
+  <version>0.1.0</version>
+  <date>2026-11-15</date>
+  <maintainer email="aleksejev.vi@gmail.com">Vitali A.</maintainer>
+  <license file="LICENSE">LGPL-2.1 license</license>
+  <url type="repository" branch="main">https://github.com/Badsmc/FreeCad-DynamicCommand</url>
+  <url type="readme">https://github.com/Badsmc/FreeCad-DynamicCommand/blob/main/README.md</url>
+  <icon>Resources/icons/FreeCad-DynamicCommand.svg</icon>
+
+  <content>
+    <workbench>
+      <classname>FreeCad-DynamicCommand</classname>
+      <subdirectory>./</subdirectory>
+      <freecadmin>0.1.0</freecadmin>
+    </workbench>
+  </content>
+</package>
+
